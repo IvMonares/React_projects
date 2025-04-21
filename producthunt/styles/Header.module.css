@@ -1,0 +1,40 @@
+.header {
+    border-bottom: 2px solid var(--grey);
+    padding: 1rem 0;
+}
+
+.headerContainer {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+@media (min-width: 768px) {
+    .headerContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.logo {
+    color: var(--orange);
+    font-size: 4rem;
+    line-height: 0;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.sessionContainer {
+    display: flex;
+    align-items: center;
+}
+
+.userGreeting {
+    margin-right: 2rem;
+}
+
+.centerFlex {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,9 @@
+.cart {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: white;
+    width: 400px;
+    border: solid 2px grey;
+    border-radius: 5px;
+}
